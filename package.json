@@ -2,9 +2,9 @@
   "name": "server-typescript",
   "version": "1.0.0",
   "description": "- README.md\r - package.json\r - .env (optional)\r - tsconfig.json (optional)\r - jest.config.js (optional)\r - dockerfile (optional)\r - docker-compose.yml (optional)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.ts"
   },
   "author": "parthsali <parthsali04@gmail.com>",
   "license": "ISC",
